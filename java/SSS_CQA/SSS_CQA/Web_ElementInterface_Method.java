@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Active_Element {
+public class Web_ElementInterface_Method {
 	@Test
 	public void enterThefocusedElement() throws InterruptedException {
 	 System.setProperty("webdriver.chrome.driver","D:\\Chromedriver\\chromedriver.exe");

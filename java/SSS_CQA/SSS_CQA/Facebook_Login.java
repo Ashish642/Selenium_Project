@@ -3,13 +3,14 @@ package SSS_CQA.SSS_CQA;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 public class Facebook_Login {
 	 @Test
 	    public void login() throws InterruptedException {
-	        System.setProperty("webdriver.chrome.driver","D:\\Chromedriver\\chromedriver.exe");
-	        WebDriver driver = new ChromeDriver();
+	        System.setProperty("webdriver.edge.driver","D:\\Chromedriver\\msedgedriver.exe");
+	        WebDriver driver = new EdgeDriver();
 	        Thread.sleep(4000);
 	        driver.get("https://www.facebook.com/");
 	        Thread.sleep(2000);
